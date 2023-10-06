@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+}
+#Header {
+    position: sticky;
+    top: 20px;
+    font-family: 'McLaren', cursive;
+    padding: 20px 32px;
+    margin: auto;
+    background-color: #f5ba13;;
+    color: #fff;;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+#footer{
+    width: 100%;
+    bottom: 0;
+    margin-top: 640px;
+    height: 2.5rem;
+    text-align: center;
+    color: #ccc;
+}
+#container{
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+    margin: 30px;
+    padding: 10px;
+    width: 15%;
+    background-color: #fff;
+    float: left;
+}
+.note{
+    font-family: 'McLaren', cursive;
+    font-size: 1em;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    margin-bottom: 6px;
+    border: none;
+}
+.note h1{
+    font-weight: 200;
+}
+button{
+    background: none;
+    border: none;
+    color: #f5ba13;
+    margin-left: 80%;
+}
+#main{
+    font-weight: 600; 
+}
+#container1{
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+    margin: 30px;
+    padding: 30px;
+    width: 20%;
+    background-color: #fff;
+    float: left;
+}
+
